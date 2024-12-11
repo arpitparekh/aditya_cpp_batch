@@ -13,7 +13,7 @@ int main(){
   a = 12; // initialization
   // int b = 13;
   cout << a << endl;
-  cout << "size of int " << sizeof(a) << endl;
+  std::cout << "size of int " << sizeof(a) << endl;
   float b;
   cout << "size of float " << sizeof(b) << endl;
 
