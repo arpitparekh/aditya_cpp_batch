@@ -32,5 +32,4 @@ int main(){
   float f2 = stof(s3);
   cout << f2 << endl;
 
-
 }
