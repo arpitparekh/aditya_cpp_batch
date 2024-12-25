@@ -1,0 +1,187 @@
+1. Student Management System
+
+Create a program to manage student records. Each record should have:
+
+    Student Name
+    Roll Number
+    Marks in 3 subjects
+    Calculate total and average marks using a method.
+    Display details of students who scored above 75% on average.
+
+2. Bank Account Management
+
+Write a program to manage bank accounts with the following details:
+
+    Account Holder Name
+    Account Number
+    Account Type (Savings/Current)
+
+    Balance Implement methods to:
+    Deposit Money
+    Withdraw Money
+    Display Account Details
+
+3. Library Management System
+
+Develop a library system where each book record has:
+
+    Title
+    Author
+    ISBN
+    Number of Copies
+
+    Include methods to:
+
+    Issue a book (reduce copies)
+    Return a book (increase copies)
+
+    Display all available books.
+
+4. Car Dealership System
+
+Create a program to store information about cars in a dealership:
+
+    Model Name
+    Manufacturer
+    Price
+    Mileage
+    Availability Status (Available/Out of Stock) Write methods to:
+    Add new cars
+    Search cars by manufacturer or price range
+    Display available cars.
+
+5. Hotel Booking System
+
+Write a class to manage hotel rooms:
+
+    Room Number
+    Type (Single/Double/Suite)
+    Price per Night
+    Availability Status
+    Include methods to:
+    Check room availability
+    Book a room
+    Display details of all rooms.
+
+6. Employee Management System
+
+Create a program to manage employee details:
+
+    Name
+    ID
+    Department
+    Salary
+    Experience (Years) Include methods to:
+    Assign values to employees
+    Display details of employees earning more than a specified amount
+    Display details of employees in a specific department.
+
+7. Product Discount Calculator
+
+Write a program to handle product details:
+
+    Product Name
+    Price
+    Discount Percentage
+    Manufacturer Implement methods to:
+    Calculate the discounted price
+    Display product details
+    List products with discounts above a specified percentage.
+
+8. Fitness Tracker
+
+Develop a fitness tracker program where each user has:
+
+    Name
+    Age
+    Weight
+    Height
+    Daily Calories Burned Include methods to:
+    Calculate BMI
+    Suggest a fitness plan based on BMI
+    Display user details and BMI.
+
+9. Ticket Booking System
+
+Create a system to manage movie ticket bookings:
+
+    Movie Name
+    Show Time
+    Seat Number
+    Price Write methods to:
+    Book tickets (assign seat number)
+    Cancel tickets
+    Display available seats.
+
+10. Weather Data Logger
+
+Write a program to store weather details for multiple cities:
+
+    City Name
+    Temperature
+    Humidity
+    Rainfall Include methods to:
+    Display cities with temperatures above a specified threshold
+    Display cities with rainfall above a specified amount
+    List all cities with their details.
+
+11. Online Shopping System
+
+Design a shopping cart system where each product has:
+
+    Product Name
+    Price
+    Quantity Available
+    Quantity Ordered Write methods to:
+    Add items to the cart
+    Calculate the total cost
+    Display cart details.
+
+12. Parking Lot Management
+
+Develop a parking lot management system:
+
+    Vehicle Type (Car/Bike)
+    Vehicle Number
+    Entry Time
+    Exit Time
+    Parking Fee (calculated based on duration) Include methods to:
+    Add vehicles
+    Calculate parking fees
+    Display all parked vehicles.
+
+13. Grade Book
+
+Create a grade book program for a class:
+
+    Student Name
+    Marks in 5 subjects
+    Total Marks
+    Grade (Calculated based on total marks) Write methods to:
+    Assign grades
+    Display details of students with grades "A" or "B"
+    Display the topper’s details.
+
+14. Hospital Management System
+
+Write a program to manage patient details:
+
+    Patient Name
+    Age
+    Disease/Condition
+    Room Number Include methods to:
+    Admit new patients
+    Discharge patients
+    Display all admitted patients.
+
+15. E-Commerce Inventory System
+
+Build an inventory system for an online store:
+
+    Product Name
+    Stock Quantity
+    Price
+    Sold Items Include methods to:
+    Add stock
+    Sell items
+    Display products with stock less than a specified quantity.

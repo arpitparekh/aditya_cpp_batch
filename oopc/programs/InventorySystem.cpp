@@ -57,13 +57,16 @@ int main(){
     cout << "Enter Product Name" << endl;
     cin.ignore();
     getline(cin,name);
-    
+
     cout << "Enter Quantity" << endl;
     cin >> qty;
     cout << "Enter Price" << endl;
     cin >> price;
     cout << "Enter Manufacturer" << endl;
     cin >> manu;
+
+
+
     arr[i].assignValues(name,qty,price,manu);
 
   }
