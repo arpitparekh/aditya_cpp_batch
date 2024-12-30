@@ -1,0 +1,73 @@
+// Question 1: Animal System
+/*
+Create a simple animal classification system:
+1. Make a base class 'Animal' with:
+   - name
+   - age
+   - sound they make
+2. Create two derived classes: 'Dog' and 'Cat'
+3. Add appropriate methods to make them:
+   - Make their specific sounds
+   - Display their information
+
+Try implementing this system!
+*/
+
+// Question 2: Shapes
+/*
+Create a basic shape system:
+1. Make a base class 'Shape' with:
+   - color
+   - name of shape
+2. Create two derived classes: 'Circle' and 'Square'
+3. Add methods to:
+   - Calculate area
+   - Display shape information
+
+Calculate areas for different shapes!
+*/
+
+// Question 3: Vehicle
+/*
+Build a simple vehicle hierarchy:
+1. Create base class 'Vehicle' with:
+   - brand
+   - model
+   - year
+2. Make two derived classes: 'Car' and 'Bike'
+3. Add methods to:
+   - Start the vehicle
+   - Display vehicle details
+
+Implement different types of vehicles!
+*/
+
+// Question 4: Employee Management
+/*
+Create a basic employee system:
+1. Make base class 'Employee' with:
+   - name
+   - id
+   - basic salary
+2. Create 'Manager' as derived class
+3. Add methods to:
+   - Calculate salary (managers get 10% bonus)
+   - Display employee information
+
+Track different types of employees!
+*/
+
+// Question 5: Fruit Basket
+/*
+Design a simple fruit classification:
+1. Create base class 'Fruit' with:
+   - name
+   - color
+   - price
+2. Make 'Apple' and 'Orange' as derived classes
+3. Add methods to:
+   - Display fruit details
+   - Calculate price for quantity
+
+Handle different types of fruits!
+*/
