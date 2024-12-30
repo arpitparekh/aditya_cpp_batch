@@ -29,9 +29,6 @@ class Cat : public Animal
 {
 };
 
-
-
-
 int
 main()
 {
@@ -39,6 +36,7 @@ main()
   Dog d1;
   d1.assignValues("Dog",10,"Bark");
   d1.display();
+  d1.breed = "Golden Retriever";
 
   Cat c1;
   c1.assignValues("Cat",5,"Meow");
@@ -47,20 +45,19 @@ main()
 
   /*
 
-  // Question 1: Animal System
+// Question 1: Animal System
 /*
 Create a simple animal classification system:
 1. Make a base class 'Animal' with:
-   - name
-   - age
-   - sound they make
+- name
+- age
+- sound they make
 2. Create two derived classes: 'Dog' and 'Cat'
 3. Add appropriate methods to make them:
-   - Make their specific sounds
-   - Display their information
+- Make their specific sounds
+- Display their information
 
-
-  */
+*/
 
   return 0;
 }

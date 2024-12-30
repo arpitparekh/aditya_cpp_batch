@@ -67,7 +67,6 @@ Design a simple fruit classification:
 2. Make 'Apple' and 'Orange' as derived classes
 3. Add methods to:
    - Display fruit details
-   - Calculate price for quantity
 
 Handle different types of fruits!
 */
