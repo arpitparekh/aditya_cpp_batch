@@ -6,7 +6,7 @@ class ABC{
 
 public:
 
-  int a;
+int a;
   int b;
   int c;
   ABC(int a,int b,int c){
