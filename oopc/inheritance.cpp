@@ -35,7 +35,6 @@ class Student : public Person{   // extending a student class with person class
 
   }
 
-
 };
 
 int main(){
