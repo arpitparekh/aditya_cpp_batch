@@ -1,0 +1,141 @@
+ Employee Data Security
+
+Create a class Employee with the following:
+
+    Private attributes: salary (float), bonus (float).
+    Public methods: setSalary(), getSalary(), setBonus(), getBonus() to assign and retrieve the values of private attributes.
+
+Tasks:
+
+    Create an Employee object.
+    Set and retrieve the salary and bonus using public methods.
+
+2. Library Book Information
+
+Create a class Book with:
+
+    Public attributes: title (string), author (string).
+    Private attributes: ISBN (string), price (float).
+    Public methods: setISBN(), getISBN(), setPrice(), getPrice().
+
+Tasks:
+
+    Create a Book object.
+    Set and retrieve the private attributes using public methods.
+    Directly access public attributes.
+
+3. Bank Account Management
+
+Create a class BankAccount with:
+
+    Private attributes: accountNumber (string), balance (float).
+    Protected attribute: accountType (string).
+    Public methods: deposit(), withdraw(), displayBalance().
+
+Tasks:
+
+    Use public methods to manipulate the private balance.
+    Create a derived class SavingsAccount and try to access accountType in it.
+
+4. Vehicle Details
+
+Create a class Vehicle with:
+
+    Protected attributes: make (string), model (string).
+    Public methods: setMake(), setModel(), displayDetails().
+
+Create a derived class Car that:
+
+    Uses the protected attributes from Vehicle to display details.
+
+Tasks:
+
+    Test access to make and model in both Vehicle and Car.
+
+5. Student Marks
+
+Create a class Student with:
+
+    Private attributes: rollNumber (integer), marks (float).
+    Public methods: setDetails(), getDetails().
+
+Tasks:
+
+    Create a Student object.
+    Use the methods to set and retrieve the private attributes.
+    Try to access rollNumber and marks directly and observe the result.
+
+6. Game Character Stats
+
+Create a class Character with:
+
+    Public attributes: name (string).
+    Protected attributes: health (integer), stamina (integer).
+    Private attributes: secretCode (string).
+    Public methods: setHealth(), getHealth(), setSecretCode(), displayStats().
+
+Create a derived class Warrior that:
+
+    Uses health and stamina to calculate the attack power.
+
+Tasks:
+
+    Try accessing all attributes directly in the main program and note the behavior.
+
+7. Online Shopping System
+
+Create a class Product with:
+
+    Private attributes: productId (integer), price (float).
+    Public attributes: productName (string).
+    Public methods: setDetails(), getDetails().
+
+Tasks:
+
+    Create an object of Product.
+    Set and retrieve private attributes using public methods.
+    Directly manipulate public attributes.
+
+8. Animal Characteristics
+
+Create a class Animal with:
+
+    Protected attributes: species (string), lifespan (integer).
+    Public method: displayDetails().
+
+Create a derived class Dog with:
+
+    Additional attributes: breed (string), color (string).
+
+Tasks:
+
+    Access species and lifespan in the derived class.
+    Display details using the base class and derived class methods.
+
+9. Bank ATM System
+
+Create a class ATM with:
+
+    Private attributes: pin (integer), balance (float).
+    Public methods: setPin(), getBalance(), withdraw(), deposit().
+
+Tasks:
+
+    Use public methods to access and modify the private attributes.
+    Test access to pin and balance directly in the main program.
+
+10. Company Hierarchy
+
+Create a class Employee with:
+
+    Protected attributes: name (string), position (string).
+    Public method: displayInfo().
+
+Create a derived class Manager that:
+
+    Adds a new attribute: teamSize (integer).
+    Displays all details using the derived class method.
+
+Tasks:
+
+    Test access to name and position in the derived class and main program.
