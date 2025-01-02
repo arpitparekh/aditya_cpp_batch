@@ -3,7 +3,6 @@ using namespace std;
 
 class ABC{
 
-
 public:
 
 int a;
