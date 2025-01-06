@@ -1,0 +1,62 @@
+Function Overloading
+
+    Overloading Functions with Different Parameter Types
+        Create a class MathOperations with overloaded calculate() methods:
+            One that accepts two integers and returns their sum.
+            Another that accepts two floats and returns their difference.
+            Demonstrate how the compiler selects the appropriate method at compile time.
+
+    Overloading with Different Numbers of Parameters
+        Implement a class Shape with overloaded area() methods:
+            One method calculates the area of a rectangle using two parameters (length and width).
+            Another method calculates the area of a square using one parameter (side).
+
+    Function Overloading with Default Arguments
+        Create a class Greeting with two overloaded sayHello() methods:
+            One that accepts a string (name) and prints a personalized greeting.
+            Another with no parameters that uses a default greeting.
+
+    Overloading with Different Return Types
+        Write a class Converter with overloaded convert() methods:
+            One that accepts an integer and returns it as a float.
+            Another that accepts a float and returns it as an integer.
+
+    Overloading Functions for Constant and Non-Constant Parameters
+        Create a class Scaler with overloaded scale() methods:
+            One that takes a non-const reference to an integer and modifies it.
+            Another that takes a const reference to an integer and displays it.
+
+Method Overriding (No Virtual Functions or Pointers)
+
+    Method Overriding in a Base and Derived Class
+        Define a base class Animal with a method speak() that displays "Animal sound".
+        Override speak() in a derived class Dog to display "Bark".
+        Use separate instances of Animal and Dog to demonstrate overriding.
+
+    Method Overriding with Additional Functionality
+        Create a base class Person with a method displayInfo() to show a name.
+        Override displayInfo() in a derived class Student to display the name and grade.
+
+    Overriding a Method in Multilevel Inheritance
+        Implement a base class Vehicle with a method run() that displays "Vehicle is running".
+        Override the method in a derived class Car to display "Car is running".
+        Further override it in a derived class ElectricCar to display "Electric car is running".
+
+    Overriding with Same Function Name but Different Functionality
+        Create a base class Appliance with a method operate() that prints "Generic appliance operating".
+        Override operate() in a derived class WashingMachine to print "Washing clothes".
+
+    Overriding with Access Modifiers
+        Define a base class Device with a public method showDetails().
+        Override it in a derived class Mobile with additional functionality to display model details.
+        Ensure both methods are called using respective class objects.
+
+Function Overloading and Overriding Combined
+
+    Combination of Overloading and Overriding
+        Create a base class Printer with an output() method.
+        In a derived class ColorPrinter, override the output() method and also overload it to accept a color parameter.
+
+    Overriding Methods with Different Return Types
+        Write a base class Shape with a method getType() returning a string.
+        Override getType() in a derived class Circle to return "Circle".
