@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
     "*.embeddedhtml": "html",
     "*.ejs": "html",
@@ -49,6 +50,7 @@
     "ostream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "fstream": "cpp"
   }
 }
