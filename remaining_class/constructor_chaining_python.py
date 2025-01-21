@@ -12,5 +12,17 @@ class C(B):
       super().__init__()
       print("C")
 
+class Demo:
+  def hi(self):
+    print("hi")
+
+  def hi(self,name):
+    print(name)
+
+  def hi(self,name,age):
+    print(name,age)
 
 c = C()  # a # abc
+
+d = Demo()
+d.hi()
