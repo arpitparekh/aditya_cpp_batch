@@ -3,7 +3,9 @@ using namespace std;
 
 
 class  A
-{ // method overloading
+{
+
+// method overloading
 
 public:
   void display(){
@@ -51,4 +53,5 @@ int main(){
   a.display(12, "Hello");
 
   return 0;
+
 }
