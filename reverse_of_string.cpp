@@ -12,6 +12,6 @@ int main(){
     copy = copy + name[i];
   }
   cout << copy << endl;
-
   return 0;
+  
 }
